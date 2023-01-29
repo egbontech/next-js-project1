@@ -1,0 +1,234 @@
+@media only screen and (max-width: 1350px) {
+  .home-container {
+    padding: 0 3%;
+  }
+  .sponsored-container {
+    width: 520px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .right-sidebar {
+    display: none;
+  }
+  .left-sidebar {
+    flex-basis: 30%;
+  }
+  .main-content {
+    flex-basis: 70%;
+  }
+  .main-content .slider {
+    height: 280px;
+  }
+  .sponsored-container {
+    width: 540px;
+  }
+  .navbar-right {
+    display: none;
+  }
+  .navbar-container .search-bar-container {
+    width: 230px;
+  }
+  .navbar {
+    width: 95%;
+  }
+  .navbar-center ul li a {
+    margin: 6px 10px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .left-sidebar {
+    display: none;
+  }
+  .main-content {
+    flex-basis: 100%;
+  }
+  .home-container {
+    padding: 0;
+  }
+  .main-content .slider {
+    height: 260px;
+  }
+  .navbar-center ul li a {
+    padding-right: 2px;
+  }
+  .sponsored-container {
+    width: 100vw;
+  }
+  .profile-picture-modal .overlay .modalcontent {
+    width: 90%;
+    height: 500px;
+  }
+  .profile-settings-container .product-title h2 {
+    width: 100vw;
+  }
+  .login-page-container {
+    flex-direction: column;
+  }
+  .form-page {
+    height: auto;
+  }
+  .form-page .login-page-container .svg-container {
+    margin: 20px 0;
+  }
+  .form-page .form-container {
+    margin-bottom: 20px;
+  }
+  .A-main-content .container{
+    grid-template-columns: 1fr 1fr;
+  }
+  .admin-form-container .input-container{
+    grid-template-columns: 1fr;
+  }
+
+  .admin-form-container .input-container{
+    padding: 20px 20px;
+  }
+  .A-table-container{
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .main-content-items-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .main-content-ad-items .main-title {
+    width: 140px;
+  }
+  .main-content .slider {
+    height: 220px;
+  }
+  .sponsored-container {
+    grid-auto-columns: 42%;
+    width: 100vw;
+  }
+  .sponsored-container::-webkit-scrollbar {
+    height: 3px;
+  }
+  .navbar {
+    width: 90%;
+  }
+  .profile-container .cover-image-container {
+    height: 150px;
+  }
+  .profile-container .follow-following-ads {
+    width: 100%;
+  }
+  .profile-picture-modal .overlay .modalcontent img {
+    height: 80%;
+    margin: auto;
+  }
+  .profile-picture-modal .overlay .modalcontent {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 120px;
+  }
+  .profile-picture-modal .overlay .modalcontent .closeBtn {
+    top: 82vh;
+    right: 43vw;
+  }
+  body {
+    background: #fff;
+  }
+  .profile-settings-container .manage-ads .table-container {
+    overflow-x: scroll;
+    width: 100vw;
+  }
+  .content-table th,
+  .content-table td {
+    padding: 12px 25px;
+  }
+  .manage-ads-svg-container .svg {
+    height: 150px;
+    margin-top: 10px;
+  }
+  .profile-settings-container .svg {
+    height: 150px;
+  }
+
+  .profile-settings-container .search-input-container {
+    width: 100%;
+  }
+  .form {
+    padding-bottom: 0px;
+  }
+  .category-list {
+    grid-auto-columns: 26%;
+  }
+  .category-list .sponsored-item .image {
+    height: 70px;
+  }
+  .category-list .sponsored-item .title p {
+    font-size: 11px;
+  }
+  .profile-settings-container .product-images {
+    height: 250px;
+  }
+  .profile-settings-container .product-image-gallery .gallery-item {
+    height: 70px;
+  }
+  .desc-modal-overlay .desc-container {
+    width: 95%;
+  }
+  .social-modal {
+    width: 95% !important;
+  }
+  .profile-settings-container .product-images img {
+    cursor: none;
+  }
+  .profile-settings-container .product-image-gallery img {
+    cursor: none;
+  }
+  .comment-input-image-container .comment-input {
+    width: 80%;
+  }
+  button {
+    cursor: none;
+  }
+  .comment-body-container .comment-body {
+    width: 85%;
+  }
+  .form-page .form-container {
+    width: 95vw;
+  }
+  .form-page .login-page-container .svg-container {
+    width: 180px;
+    height: 150px;
+    margin-right: 0;
+  }
+  .dot {
+    cursor: none;
+  }
+  .image-gallery-overlay .image-gallery {
+    width: 110vw;
+    height: 70vh;
+  }
+  .A-main-content .container{
+    grid-template-columns: 1fr;
+  }
+  .A-navbar-container h2{
+    display: none;
+  }
+  .A-navbar-container{
+    justify-content: center;
+  }
+  .sidebar{
+    width: 50px;
+  }
+  .sidebar ul li a .i{
+    margin-left: 0;
+  }
+  .A-table-container .content-table th,td{
+    padding: 15px 25px;
+  }
+  .A-main-content{
+    width: (100% - 60px);
+    left: 60px;
+  }
+  .admin-form-container{
+    width: 95%;
+  }
+  .A-table-container{
+    width: 95%;
+  }
+  
+}
